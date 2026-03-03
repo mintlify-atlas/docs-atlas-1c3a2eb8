@@ -1,0 +1,101 @@
+{
+  "projectType": "saas",
+  "projectName": "Bedrock Chat",
+  "projectDescription": "A multilingual generative AI chat platform powered by Amazon Bedrock with custom bots, RAG, bot sharing, and task automation.",
+  "theme": "palm",
+  "primaryColor": "#8B5CF6",
+  "lightColor": "#A78BFA",
+  "darkColor": "#6D28D9",
+  "navigation": {
+    "tabs": [
+      {
+        "tab": "Documentation",
+        "groups": [
+          {
+            "group": "Get Started",
+            "pages": [
+              "introduction",
+              "quickstart",
+              "deployment"
+            ]
+          },
+          {
+            "group": "Core Features",
+            "pages": [
+              "features/chat",
+              "features/custom-bots",
+              "features/knowledge-bases",
+              "features/bot-store",
+              "features/agents",
+              "features/api-publishing"
+            ]
+          },
+          {
+            "group": "Deployment",
+            "pages": [
+              "deployment/aws-setup",
+              "deployment/configuration",
+              "deployment/multi-environment",
+              "deployment/custom-domain"
+            ]
+          },
+          {
+            "group": "User Guide",
+            "pages": [
+              "guide/authentication",
+              "guide/user-management",
+              "guide/permissions",
+              "guide/administration"
+            ]
+          },
+          {
+            "group": "Development",
+            "pages": [
+              "development/local-setup",
+              "development/architecture",
+              "development/custom-agents",
+              "development/contributing"
+            ]
+          }
+        ]
+      },
+      {
+        "tab": "API Reference",
+        "groups": [
+          {
+            "group": "API",
+            "pages": [
+              "api/overview",
+              "api/authentication",
+              "api/chat",
+              "api/bots"
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  "keyFeatures": [
+    "Multi-model AI chat powered by Amazon Bedrock",
+    "Custom bots with RAG using Knowledge Bases",
+    "Bot Store for sharing and discovering bots",
+    "Agent framework for task automation",
+    "Multi-tenant knowledge base support",
+    "Published API for bot integration",
+    "Administrative dashboard and analytics",
+    "Multi-language support (15+ languages)",
+    "AWS CDK infrastructure deployment",
+    "Cognito authentication with SSO"
+  ],
+  "publicApiSurface": [
+    "/chat - Conversation management endpoints",
+    "/bot - Bot creation and management",
+    "/bot-store - Bot marketplace APIs",
+    "/admin - Administrative operations",
+    "/api-publication - Published API management",
+    "WebSocket support for streaming responses",
+    "Custom bot Knowledge Base with RAG",
+    "Agent tools: calculator, internet search, knowledge retrieval",
+    "Multi-model selection (Claude, Nova, Mistral, Llama)"
+  ]
+}
